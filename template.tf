@@ -3,5 +3,5 @@ variable "stringvariable" {
 }
 
 output "outputstringvariable" {
-  value = '${var.stringvariable}"
+  value = "${var.stringvariable}"
 }
